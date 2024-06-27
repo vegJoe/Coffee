@@ -1,0 +1,149 @@
+.header {
+    background-color: rgba(41, 28, 34, 0.705);
+    left: 0;
+    right: 0;
+    height: 7rem;
+    justify-content: center;
+    display: flex;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .navbar .link {
+    font-size: 50px;
+    font-family: Spirax;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 1000px;
+    align-items: center;
+}
+
+.center_logo {
+    display: flex;
+    color: rgb(150, 0, 0);
+    font-size: 9rem;
+    font-family: spirax;
+    margin-bottom: 1rem;
+}
+
+.redbox_left {
+    display: flex;
+    width: 53rem;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(179, 9, 9, 0.774);
+    color: white;
+    font-size: 2rem;
+    font-family: "Poiret One";
+    position: relative;
+    right: 100px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.redbox_right {
+    display: flex;
+    width: 53rem;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(179, 9, 9, 0.774);
+    color: white;
+    font-size: 2rem;
+    font-family: "Poiret One";
+    position: relative;
+    left: 100px;
+    margin-bottom: 3px;
+}
+
+.menu_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.7rem;
+    position: relative;
+    left: 60px;
+}
+
+.menu_prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.7rem;
+    position: relative;
+    right: -450px;
+}
+
+.menu_text {
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+.hot {
+    height: 120vh;
+    background-size: cover;
+    background-image: url("assets/hot.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.juicy {
+    height: 120vh;
+    background-size: cover;
+    background-image: url("assets/juicy.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cosy {
+    height: 120vh;
+    background-size: cover;
+    background-image: url("assets/cosy.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot_menu {
+    display: flex;
+    width: 50rem;
+    height: 12rem;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    font-family: "Poiret One";
+    margin-top: 2rem;
+}
+
+.juicy_menu {
+    display: flex;
+    width: 50rem;
+    height: 9rem;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    font-family: "Poiret One";
+    margin-top: 2rem;
+}
+
+.cosy_menu {
+    display: flex;
+    width: 55rem;
+    height: 9rem;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    font-family: "Poiret One";
+    margin-top: 2rem;
+}
+
