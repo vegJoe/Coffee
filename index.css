@@ -5,6 +5,7 @@
     height: 7rem;
     justify-content: center;
     display: flex;
+    position: fixed;
 }
 
 .header .navbar {
@@ -91,7 +92,7 @@
 }
 
 .hot {
-    height: 120vh;
+    height: 100vh;
     background-size: cover;
     background-image: url("assets/hot.jpg");
     display: flex;
@@ -100,7 +101,7 @@
 }
 
 .juicy {
-    height: 120vh;
+    height: 100vh;
     background-size: cover;
     background-image: url("assets/juicy.jpg");
     display: flex;
@@ -109,7 +110,7 @@
 }
 
 .cosy {
-    height: 120vh;
+    height: 100vh;
     background-size: cover;
     background-image: url("assets/cosy.jpg");
     display: flex;
